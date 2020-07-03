@@ -16,7 +16,7 @@ export default {
 .ol-cell {
   display: flex;
   font-size: 16px;
-
+  
   .header {
     margin-right: 10px;
   }

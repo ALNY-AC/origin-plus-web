@@ -3,13 +3,20 @@
     <div class="container">
       <h2>创建项目</h2>
       <ol-pre>{{cmd.createApp}}</ol-pre>
+
+      <table>
+        <tr>
+          <td>appName</td>
+          <td>项目名</td>
+        </tr>
+        <tr>
+          <td>temp</td>
+          <td>模板</td>
+        </tr>
+      </table>
+
       <ol-cell label="appName">项目名</ol-cell>
-      <ul>
-        <li>
-          <label for>appName</label>
-          <span>项目名</span>
-        </li>
-      </ul>
+      <ol-cell label="temp">模板</ol-cell>
     </div>
   </section>
 </template>

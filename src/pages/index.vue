@@ -6,10 +6,11 @@
         <div class="title">
           <span>origin-plus</span>
         </div>
-        <div class="sub-title">基于 Node.js 的项目快速搭建工具</div>
+        <div class="sub-title">基于 Node.js 的轻量级项目快速搭建&开发工具</div>
       </div>
     </section>
     <ol-start></ol-start>
+    
     <section></section>
     <section></section>
     <section></section>
@@ -21,7 +22,8 @@ export default {};
 </script>
 <style lang="scss" scoped>
 .head {
-  height: 100vh;
+  min-height: auto;
+  height: 60vh;
   background-color: #fff;
   display: flex;
   align-items: center;

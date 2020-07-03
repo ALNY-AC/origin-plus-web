@@ -1,7 +1,5 @@
 <template>
-  <pre class="ol-pre">
-      <slot></slot>
-  </pre>
+  <pre class="ol-pre"><slot></slot></pre>
 </template>
 <script>
 export default {
